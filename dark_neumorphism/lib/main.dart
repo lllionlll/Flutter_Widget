@@ -28,6 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[850],
       body: Center(
         child: Container(
           width: 200,
@@ -38,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
               borderRadius: BorderRadius.all(Radius.circular(40)),
               boxShadow: [
                 BoxShadow(
-                    color: Colors.grey.shade500,
+                    color: Colors.grey.shade900,
                     offset: Offset(4.0, 4.0),
                     blurRadius: 15.0,
                     spreadRadius: 1.0
@@ -47,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     color: Colors.white,
                     offset: Offset(-4.0, -4.0),
                     blurRadius: 15.0,
-                    spreadRadius: 1.0
+                    spreadRadius: 1
                 )
               ]
           ),
